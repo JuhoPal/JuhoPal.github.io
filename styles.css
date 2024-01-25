@@ -1,0 +1,57 @@
+
+body {
+background-image: url(kakku.png);
+background-color: #172D13;
+<!-- NOTE check https://designshack.net/articles/trends/best-website-color-schemes/ for Bold by Nature -->
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+font-family: Verdana, sans-serif;
+margin-left: 10%
+}
+
+<!-- grid-container pitää vielä selvittää. En muista miksi olen lisäänyt sen yhteen html koodiin -->
+.grid-container {
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 5px;
+  background-color: transparent;
+  padding: 10px;
+}
+
+h1 {
+text-align: center;
+font-family: Stencil;
+letter-spacing: .2em;
+font-size: 3em;
+color: #ffffee;
+margin-top: 1.5em;
+}
+
+h2 {
+color: #ffffee;
+font-size: 2em;
+}
+	
+p {
+color: #ffffee;
+margin-right: 57%;
+}
+
+ul li {
+color: #ffffee;
+}
+
+li a:link {
+color: #d76f30;	
+}
+
+li a:visited {
+color: #d76f11;
+}
+
+.index {
+color: #ffffee;
+}
