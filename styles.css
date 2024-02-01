@@ -1,16 +1,12 @@
-
 body {
-background-image: url(kakku.png);
+background-image: url(xxx.png);
 background-color: #172D13;
-<!-- NOTE check https://designshack.net/articles/trends/best-website-color-schemes/ for Bold by Nature -->
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
 font-family: Verdana, sans-serif;
 margin-left: 10%
 }
-
-<!-- grid-container pitää vielä selvittää. En muista miksi olen lisäänyt sen yhteen html koodiin -->
 .grid-container {
   grid-template-areas:
     'header header header header header header'
