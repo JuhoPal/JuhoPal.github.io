@@ -1,55 +1,70 @@
 
 body {
 background-image: url(kakku.png);
-background-color: #172D13;
-<!-- NOTE check https://designshack.net/articles/trends/best-website-color-schemes/ for Bold by Nature -->
+background-color: #ffffff;
+/* NOTE check https://designshack.net/articles/trends/best-website-color-schemes/ for Bold by Nature */
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
-font-family: Verdana, sans-serif;
+font-family: sans-serif;
 margin-left: 10%
 }
 
-<!-- grid-container pitää vielä selvittää. En muista miksi olen lisäänyt sen yhteen html koodiin -->
+/* grid-container pitää vielä selvittää. En muista miksi olen lisäänyt sen yhteen html koodiin */
 .grid-container {
+  display: grid;
   grid-template-areas:
     'header header header header header header'
     'menu main main main right right'
     'menu footer footer footer footer footer';
-  gap: 5px;
+  gap:  5px;
   background-color: transparent;
   padding: 10px;
 }
 
 h1 {
 text-align: center;
-font-family: Stencil;
+font-family: sans-serif;
 letter-spacing: .2em;
-font-size: 3em;
-color: #ffffee;
+font-size: 2em;
+color: #000000;
 margin-top: 1.5em;
 }
 
 h2 {
-color: #ffffee;
+color: #000000;
 font-size: 2em;
 }
 	
 p {
-color: #ffffee;
+color: #000000;
 margin-right: 57%;
 }
 
-ul li {
-color: #ffffee;
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+position: fixed;
+top: 0;
+width: 100%;
 }
 
-li a:link {
-color: #d76f30;	
+li {
+float: left;
 }
 
-li a:visited {
-color: #d76f11;
+li a {
+color: #000000;
+display: block;
+background-color: #dddd;
+text-align:center;
+padding: .2em .2em;
+}
+
+li a:hover{
+color: #24a40b;
 }
 
 .index {
