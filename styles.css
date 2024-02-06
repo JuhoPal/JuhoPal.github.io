@@ -8,18 +8,7 @@ background-attachment: fixed;
 background-size: cover;
 font-family: Raleway, sans-serif;
 margin: 0;
-}
-
-/* grid-container pitää vielä selvittää. En muista miksi olen lisäänyt sen yhteen html koodiin */
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  gap:  5px;
-  background-color: transparent;
-  padding: 10px;
+padding-top: 2em;
 }
 
 h1 {
@@ -39,10 +28,10 @@ margin: 1em;
 	
 p {
 color: #000000;
-margin: 2em;
+margin: 1em 2em;
 }
 
-ul.nav {
+.nav {
 list-style-type: none;
 margin: 0;
 padding: 0;
@@ -52,6 +41,7 @@ top: 0;
 width: 100%;
 font-size: 1.5em;
 background-color: #dddd;
+z-index: 500;
 }
 
 ul.nav li {
