@@ -66,3 +66,9 @@ ul.nav li a.active{
 .index {
 color: #ffffee;
 }
+footer {
+color: ffffee;
+text-align: center;
+font-size: .8em;
+padding: 1em;
+}
