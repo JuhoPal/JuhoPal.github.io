@@ -7,9 +7,8 @@ background-attachment: fixed;
 background-size: cover;
 font-family: Raleway, sans-serif;
 margin: 0;
-padding-top: 2em;
 }
-
+header
 h1 {
 text-align: center;
 letter-spacing: .2em;
@@ -31,12 +30,9 @@ margin: 1em 2em;
 }
 
 .nav {
-list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-position: fixed;
-top: 0;
 width: 100%;
 font-size: 1.5em;
 background-color: #dddd;
@@ -57,11 +53,44 @@ text-decoration: none;
 background-color: #7B9974;
 }
 .nav a.active{
-  background-color: #7B9974;
+  background-color: #172D13;
+  color: #ffffff;
 }
-@media screen and (max-width: 400px) {
+footer {
+  color: ffffee;
+  text-align: center;
+  font-size: .8em;
+  padding: 1em;
+}
+@media screen and (max-width: 600px) {
   .nav a {
     text-align: center;
     float: none;
   }
+}
+
+
+footer {
+color: #ffffee;
+text-align: center;
+font-size: .8em;
+padding: 1em;
+}
+
+header img.icons{
+width: 40px;
+height: 30px;
+margin-right: .5px;
+margin-left: .5px;
+border-top: 1px solid #57b1dc;
+text-align: center;
+padding-top: 1em;
+}
+
+header img {
+margin-right: .5px;
+margin-left: .5px;
+border-top: 1px solid #57b1dc;
+text-align: center;
+padding-top: 1em;
 }
