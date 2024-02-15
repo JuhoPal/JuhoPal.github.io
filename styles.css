@@ -53,7 +53,8 @@ text-decoration: none;
 background-color: #7B9974;
 }
 .nav a.active{
-  background-color: #7B9974;
+  background-color: #172D13;
+  color: #ffffff;
 }
 footer {
   color: ffffee;
