@@ -59,6 +59,15 @@ background-color: #7B9974;
 .nav a.active{
   background-color: #7B9974;
 }
-.index {
-color: #ffffee;
+footer {
+  color: ffffee;
+  text-align: center;
+  font-size: .8em;
+  padding: 1em;
+}
+@media screen and (max-width: 600px) {
+  .nav a {
+    text-align: center;
+    float: none;
+  }
 }
