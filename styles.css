@@ -43,26 +43,25 @@ background-color: #dddd;
 z-index: 500;
 }
 
-ul.nav li {
-float: left;
-border-right: 1px solid;
-}
-
-ul.nav li a {
+.nav a {
 color: #000000;
 display: block;
-
+float: left;
+border-right: 1px solid;
 text-align: center;
 padding: .4em .4em;
 text-decoration: none;
 }
 
-ul.nav li a:hover{
+.nav a:hover{
 background-color: #7B9974;
 }
-ul.nav li a.active{
+.nav a.active{
   background-color: #7B9974;
 }
-.index {
-color: #ffffee;
+@media screen and (max-width: 400px) {
+  .nav a {
+    text-align: center;
+    float: none;
+  }
 }
