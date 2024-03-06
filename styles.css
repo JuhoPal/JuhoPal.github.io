@@ -1,21 +1,60 @@
 body {
-background-image: url(kakku.png);
 background-color: #ffffff;
-/* NOTE check https://designshack.net/articles/trends/best-website-color-schemes/ for Bold by Nature */
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
 font-family: Raleway, sans-serif;
-margin: 0;
 }
-header
+
+.header_image a img {
+padding-top: 120px;
+width: 100%;
+height: auto;
+}
+
+.header_list ul.nav {
+list-style-type: none;
+display: block;
+width: 100%;
+font-size: 1.5em;
+background-color: #172D13;
+opacity: 0.96;
+position: fixed;
+top: 20px;
+padding: 10px 10px;
+z-index: 5;
+}
+
+.header_list ul.nav a {
+color: #ffffff;
+display: block;
+float: left;
+text-align: center;
+padding: .5em;
+text-decoration: none;
+}
+
+.header_list ul.nav li a:hover {
+  color: #ffffff;
+  background-color: #D76F11;
+}
+
+.header_list ul.nav li a.active {
+  color: #ffffff;
+  background-color: #D76F11;
+}
+
+.header_list a.icon img {
+display: block;
+float: left;
+height: 32px;
+width: 32px;
+padding: 4px;
+}
+
 h1 {
 text-align: center;
 letter-spacing: .2em;
 font-size: 1.5em;
 color: #000000;
 margin-top: 1.5em;
-margin-left: 10%;
 }
 
 h2 {
@@ -29,68 +68,42 @@ color: #000000;
 margin: 1em 2em;
 }
 
-.nav {
-margin: 0;
-padding: 0;
-overflow: hidden;
-width: 100%;
-font-size: 1.5em;
-background-color: #dddd;
-z-index: 500;
-}
-
-.nav a {
-color: #000000;
-display: block;
-float: left;
-border-right: 1px solid;
+.title {
+padding-top: 10em;
 text-align: center;
-padding: .4em .4em;
-text-decoration: none;
 }
 
-.nav a:hover{
-background-color: #7B9974;
-}
-.nav a.active{
-  background-color: #172D13;
-  color: #ffffff;
-}
-footer {
-  color: ffffee;
-  text-align: center;
-  font-size: .8em;
-  padding: 1em;
-}
-@media screen and (max-width: 600px) {
-  .nav a {
-    text-align: center;
-    float: none;
-  }
+.page {
+padding: 1em
 }
 
+.title p.center {
+text-align: center;
+}
+
+.page .yhteys {
+text-align: center;
+}
 
 footer {
 color: #ffffee;
 text-align: center;
 font-size: .8em;
-padding: 1em;
+margin-bottom: 10%;
 }
 
-header img.icons{
-width: 40px;
-height: 30px;
-margin-right: .5px;
-margin-left: .5px;
-border-top: 1px solid #57b1dc;
-text-align: center;
-padding-top: 1em;
-}
+@media screen and (max-width: 600px) {
+  .header_list ul.nav a {
+    text-align: center;
+    float: none;
+  }
+  .title {
+    padding-top: 198px;
+  }
 
-header img {
-margin-right: .5px;
-margin-left: .5px;
-border-top: 1px solid #57b1dc;
-text-align: center;
-padding-top: 1em;
+  .header_image a img {
+    padding-top: 230px;
+    width: 100%;
+    height: auto;
+  }
 }
